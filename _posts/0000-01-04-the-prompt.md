@@ -15,3 +15,14 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 note:
 - add the code
 - run source ~/.bash_profile
+
+--
+
+## The Second Prompt
+
+```bash
+# ~/.bash_profile
+...
+export PS2="=> "
+
+```
